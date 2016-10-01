@@ -1,3 +1,8 @@
 table, th, td, tr {
   border: 1px solid black;
 }
+
+.footerimg {
+  width: 50px;
+  height: auto;
+}

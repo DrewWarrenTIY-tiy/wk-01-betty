@@ -106,3 +106,22 @@ caption {
 a {
   text-decoration: none;
 }
+
+tr:hover {
+  background-color: yellow;
+}
+
+/* How to make table rows clickable???
+
+tr:active {
+  background-color: yellow;
+}*/
+
+tr:nth-child(2n+1):hover {
+  background-color: yellow;
+}
+
+th {
+  background-color: #9BEFA1;
+  color: #F11D87;
+}

@@ -71,5 +71,38 @@ table, th, td, tr {
 }
 
 .allthings {
-  margin-top: 5em;
+  margin-top: 3em;
+}
+
+.shoplogo {
+  width: 100px;
+  border-radius: 100%;
+  z-index: 0;
+  background-color: pink;
+  padding: .7em;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.shopbio, .hoursandcontact {
+  font-family: Helvetica, serif;
+  background-color: #bbb;
+}
+
+.flavortable tr:nth-child(2n+1) {
+  background-color: lavender;
+}
+
+.flavortable tr {
+  background-color: lightgreen;
+}
+
+caption {
+  font-size: 2em;
+  font-family: Courier;
+}
+
+a {
+  text-decoration: none;
 }
